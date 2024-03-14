@@ -1,6 +1,6 @@
-const input = document.getElementById('item');
-const button = document.getElementById('add-button');
-const list = document.getElementById('sh-list');
+const input = document.querySelector('#item');
+const button = document.querySelector('#add-button');
+const list = document.querySelector('#sh-list');
 
 button.addEventListener('click', function(){
     
